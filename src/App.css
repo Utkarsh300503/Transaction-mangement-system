@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+.main-heading {
+  text-align: center; 
+  font-family: 'Roboto', sans-serif;
+  color: #2f419e; 
+  font-size: 36px; 
+  font-weight: bold; 
+  margin: 20px 0; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}

@@ -1,0 +1,60 @@
+.edit-transaction-form {
+  max-width: 450px; 
+  margin: 30px auto; 
+  padding: 30px; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.edit-transaction-form label {
+  display: block;
+  margin-bottom: 10px; 
+  font-weight: bold;
+  font-size: 14px; 
+}
+
+.edit-transaction-form input,
+.edit-transaction-form select {
+  width: 100%;
+  padding: 12px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 6px; 
+  font-size: 14px;
+  box-sizing: border-box; 
+}
+
+.edit-transaction-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  border-radius: 6px; 
+  cursor: pointer;
+  font-size: 16px; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease; 
+}
+
+.edit-transaction-form button:hover {
+  background-color: #e69500;
+}
+
+.form-title {
+  text-align: center; 
+  font-size: 26px; 
+  font-weight: bold; 
+  color: #333; 
+  margin-bottom: 25px; 
+}
+
+.edit-transaction-form .field-container {
+  margin-bottom: 20px; 
+}
+
+.edit-transaction-form .field-container:last-child {
+  margin-bottom: 0; 
+}

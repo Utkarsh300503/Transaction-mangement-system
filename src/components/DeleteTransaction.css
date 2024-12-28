@@ -1,0 +1,83 @@
+
+.delete-transaction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.transaction-details {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  width: 100%;
+}
+
+.transaction-detail {
+  margin: 10px 0;
+  color: #555;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; 
+  width: 100%;
+  max-width: 300px;
+}
+
+
+.delete-button {
+  background-color: #dc3545; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333; 
+}
+
+/* Cancel Button */
+.cancel-button {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  background-color: #5a6268; 
+}
+
+
+#loading-message {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
